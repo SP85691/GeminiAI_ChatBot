@@ -14,6 +14,7 @@ You can interact with the AI by typing prompts in the chat interface.
 """
 
 # STREAMLIT SETUP
+st.set_page_config(page_title="Baymax AI", page_icon="🤖")
 st.header("💬 Chat with Baymax AI 🤖", anchor=None)
 st.divider()
 st.warning("API key will be required after two days.", icon="🤖")
